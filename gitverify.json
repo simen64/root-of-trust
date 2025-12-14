@@ -34,6 +34,7 @@
       "uri": "git+https://github.com/simen64/nix-config.git",
       "after": [{
         "sha1": "34774f5fadaa1d717d01f4de37c0400bb117a0a9",
+        "sha512": "6bc2b1570a2371cfaf9e308cc686be82fdaca7e4aca0615796eab7b4e9e7c0ee78cac03a2a65ea9a30eb3561b399b12d9bbaca4faaa62f3b6140539fec8e6902",
         "branch": "main"
       }]
     },
@@ -41,6 +42,7 @@
       "uri": "git+https://github.com/simen64/root-of-trust.git",
       "after": [{
         "sha1": "bad15ea4b48e3d918695e920ee1ea21df4d05322",
+        "sha512": "7102025c5659a63139ffc4f25a909826ca7a3e3b35e79b410165c7e2fd55fcd2ccafdd5a39c6e03d168dce3bcc0b05fdb91281164ec53f3b269ca91a44647bbb",
         "branch": "main"
       }]
     }
