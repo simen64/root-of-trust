@@ -33,9 +33,16 @@
     {
       "uri": "git+ssh://git@github.com/simen64/nix-config.git",
       "after": [{
-          "sha1": "34774f5fadaa1d717d01f4de37c0400bb117a0a9",
-          "branch": "main"
-        }]
+        "sha1": "34774f5fadaa1d717d01f4de37c0400bb117a0a9",
+        "branch": "main"
+      }]
+    },
+    {
+      "uri": "git+ssh://git@github.com/simen64/root-of-trust.git",
+      "after": [{
+        "sha1": "bad15ea4b48e3d918695e920ee1ea21df4d05322",
+        "branch": "main"
+      }]
     },
   ]
 }
