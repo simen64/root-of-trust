@@ -1,0 +1,41 @@
+{
+  "_type": "https://supply-chain-tools.github.io/schemas/gitverify/v0.1",
+  "identities": [
+    {
+      "email": "simenmunch@gmail.com",
+      "forgeUsername" : "simen64",
+      "forgeUserId": "97337442",
+      "sshPublicKeys": [
+        "sk-ssh-ed25519@openssh.com AAAAGnNrLXNzaC1lZDI1NTE5QG9wZW5zc2guY29tAAAAIHa4MOkvaZbhdeWuYUFQ1sywWYkpW9x9uVTX+RlDdMvXAAAABHNzaDo=",
+        "sk-ssh-ed25519@openssh.com AAAAGnNrLXNzaC1lZDI1NTE5QG9wZW5zc2guY29tAAAAIAqDkA6c7wWbeVXWv0fh0xEB2NURnL8qudQHxDVWGPAfAAAABHNzaDo="
+      ]
+    }
+  ],
+  "maintainers": [
+    "simenmunch@gmail.com"
+  ],
+  "rules": {
+    "allowSshSignatures": true,
+    "requireSshUserPresent": true,
+    "requireSshUserVerified": false,
+    "allowGpgSignatures": false,
+    "requireSignedTags": true,
+    "requireMergeCommits": false,
+    "requireUpToDate": true
+  },
+  "forgeId": "github.com",
+  "forgeRules": {
+    "allowMergeCommits": true,
+    "allowContentCommits": false
+  },
+  "protectedBranches": ["main"],
+  "repositories": [
+    {
+      "uri": "git+ssh://git@github.com/simen64/nix-config.git",
+      "after": [{
+          "sha1": "34774f5fadaa1d717d01f4de37c0400bb117a0a9",
+          "branch": "main"
+        }]
+    },
+  ]
+}
