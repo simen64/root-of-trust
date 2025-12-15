@@ -7,3 +7,4 @@ Not all my repos are currently supported for verification using gitverify, these
 
 - root-of-trust
 - nix-config
+- Hello-World

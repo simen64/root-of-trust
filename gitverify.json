@@ -46,5 +46,13 @@
         "branch": "main"
       }]
     }
+    {
+      "uri": "git+https://github.com/simen64/hello-world.git",
+      "after": [{
+        "sha1": "179e9147790fa724db7eb2a2e3d7af21d9af9e39",
+        "sha512": "ec4154873b57f510d66f555b1a91123205437ac16013602c2e76747ca7eb556d5aec35beb4ffd08f12fb34f2bde8d53da15b7581a1bb4c0eda09c27ddeb8c1f6",
+        "branch": "main"
+      }]
+    }
   ]
 }
