@@ -45,7 +45,7 @@
         "sha512": "7102025c5659a63139ffc4f25a909826ca7a3e3b35e79b410165c7e2fd55fcd2ccafdd5a39c6e03d168dce3bcc0b05fdb91281164ec53f3b269ca91a44647bbb",
         "branch": "main"
       }]
-    }
+    },
     {
       "uri": "git+https://github.com/simen64/hello-world.git",
       "after": [{
