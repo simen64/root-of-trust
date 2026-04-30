@@ -1,5 +1,5 @@
 {
-  "_type": "https://supply-chain-tools.github.io/schemas/gitverify/v0.1",
+  "_type": "https://supply-chain-tools.github.io/schemas/gitverify/v0.2",
   "identities": [
     {
       "email": "simenmunch@gmail.com",
@@ -20,13 +20,7 @@
     "requireSshUserVerified": false,
     "allowGpgSignatures": false,
     "requireSignedTags": true,
-    "requireMergeCommits": false,
-    "requireUpToDate": true
-  },
-  "forgeId": "github.com",
-  "forgeRules": {
-    "allowMergeCommits": true,
-    "allowContentCommits": false
+    "requireMergeCommits": false
   },
   "protectedBranches": ["main"],
   "repositories": [
